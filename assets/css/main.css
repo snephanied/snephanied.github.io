@@ -1910,9 +1910,9 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Hero Section
+# overview Section
 --------------------------------------------------------------*/
-.hero {
+.overview {
   width: 100%;
   position: relative;
   background: var(--color-primary);
@@ -1920,25 +1920,25 @@ section {
 }
 
 @media (min-width: 1365px) {
-  .hero {
+  .overview {
     background-attachment: fixed;
   }
 }
 
-.hero h2 {
+.overview h2 {
   font-size: 48px;
   font-weight: 700;
   margin-bottom: 20px;
   color: #fff;
 }
 
-.hero p {
+.overview p {
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
   margin-bottom: 30px;
 }
 
-.hero .btn-get-started {
+.overview .btn-get-started {
   font-family: var(--font-primary);
   font-weight: 500;
   font-size: 15px;
@@ -1953,11 +1953,11 @@ section {
   border: 2px solid rgba(255, 255, 255, 0.1);
 }
 
-.hero .btn-get-started:hover {
+.overview .btn-get-started:hover {
   border-color: rgba(255, 255, 255, 0.5);
 }
 
-.hero .btn-watch-video {
+.overview .btn-watch-video {
   font-size: 16px;
   transition: 0.5s;
   margin-left: 25px;
@@ -1965,7 +1965,7 @@ section {
   font-weight: 600;
 }
 
-.hero .btn-watch-video i {
+.overview .btn-watch-video i {
   color: rgba(255, 255, 255, 0.5);
   font-size: 32px;
   transition: 0.3s;
@@ -1973,27 +1973,27 @@ section {
   margin-right: 8px;
 }
 
-.hero .btn-watch-video:hover i {
+.overview .btn-watch-video:hover i {
   color: #fff;
 }
 
 @media (max-width: 640px) {
-  .hero h2 {
+  .overview h2 {
     font-size: 36px;
   }
 
-  .hero .btn-get-started,
-  .hero .btn-watch-video {
+  .overview .btn-get-started,
+  .overview .btn-watch-video {
     font-size: 14px;
   }
 }
 
-.hero .icon-boxes {
+.overview .icon-boxes {
   padding-bottom: 60px;
 }
 
 @media (min-width: 1200px) {
-  .hero .icon-boxes:before {
+  .overview .icon-boxes:before {
     content: "";
     position: absolute;
     bottom: 0;
@@ -2004,7 +2004,7 @@ section {
   }
 }
 
-.hero .icon-box {
+.overview .icon-box {
   padding: 60px 30px;
   position: relative;
   overflow: hidden;
@@ -2018,18 +2018,18 @@ section {
   text-align: center;
 }
 
-.hero .icon-box .title {
+.overview .icon-box .title {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 24px;
 }
 
-.hero .icon-box .title a {
+.overview .icon-box .title a {
   color: #fff;
   transition: 0.3s;
 }
 
-.hero .icon-box .icon {
+.overview .icon-box .icon {
   margin-bottom: 20px;
   padding-top: 10px;
   display: inline-block;
@@ -2039,12 +2039,12 @@ section {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.hero .icon-box:hover {
+.overview .icon-box:hover {
   background: #009786;
 }
 
-.hero .icon-box:hover .title a,
-.hero .icon-box:hover .icon {
+.overview .icon-box:hover .title a,
+.overview .icon-box:hover .icon {
   color: #fff;
 }
 
